@@ -139,10 +139,11 @@
     <Compile Include="Models\Serialization\EffectType.cs" />
     <Compile Include="Models\Serialization\GenderType.cs" />
     <Compile Include="Models\Serialization\NoblePhantasm.cs" />
+    <Compile Include="Models\Serialization\Requirements.cs" />
+    <Compile Include="Models\Serialization\RequirementTypes.cs" />
     <Compile Include="Models\Serialization\Servant.cs" />
     <Compile Include="Models\Serialization\ServantsContext.cs" />
     <Compile Include="Models\Serialization\ActiveSkill.cs" />
-    <Compile Include="Models\Serialization\SpecialCaseType.cs" />
     <Compile Include="Models\Serialization\StatValues.cs" />
     <Compile Include="Models\Serialization\TargetType.cs" />
     <Compile Include="Models\Serialization\TraitType.cs" />

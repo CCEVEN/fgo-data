@@ -16,6 +16,7 @@ namespace FGOData.Models.Data
                 {
                     EffectType = EffectType.Stars,
                     Target = TargetType.Self,
+                    Duration = 1,
                     EffectValuesType = EffectValueType.Constant,
                     EffectValues = new List<float>
                     {

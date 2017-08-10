@@ -21,11 +21,10 @@ namespace FGOData.Models.Serialization
         public float NPGainDef { get; set; }
         public float DeathRate { get; set; }
         public int InterludeCount { get; set; }
-        public List<ActiveSkill> ActiveSkills { get; set; }
-        public List<PassiveSkill> PassiveSkills { get; set; }
         public List<Card> Cards { get; set; }
         public List<NoblePhantasm> NoblePhantasm { get; set; }
-        public SpecialCaseType? SpecialCase { get; set; }
+        public List<ActiveSkill> ActiveSkills { get; set; }
+        public List<PassiveSkill> PassiveSkills { get; set; }
         public List<StatValues> Stats { get; set; }
     }
 }

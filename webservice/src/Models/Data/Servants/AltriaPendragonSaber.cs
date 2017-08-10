@@ -1,5 +1,4 @@
 ﻿using FGOData.Models.Serialization;
-using System;
 using System.Collections.Generic;
 
 namespace FGOData.Models.Data
@@ -38,6 +37,20 @@ namespace FGOData.Models.Data
             NPGainDef = 3.0f;
             DeathRate = 21.0f;
             InterludeCount = 2;
+            Cards = new List<Card>
+            {
+                new Card(CardType.Quick, 2),
+                new Card(CardType.Arts, 2),
+                new Card(CardType.Arts, 2),
+                new Card(CardType.Buster, 1),
+                new Card(CardType.Buster, 1),
+                new Card(CardType.Extra, 3),
+            };
+            NoblePhantasm = new List<NoblePhantasm>
+            {
+                new ExcaliburA(),
+                new ExcaliburA2()
+            };
             ActiveSkills = new List<ActiveSkill>
             {
                 new CharismaB(),
@@ -48,11 +61,6 @@ namespace FGOData.Models.Data
             {
                 new MagicResistanceA(),
                 new RidingB()
-            };
-            NoblePhantasm = new List<Serialization.NoblePhantasm>
-            {
-                new ExcaliburA(),
-                new ExcaliburA2()
             };
             Stats = new List<StatValues>
             {
