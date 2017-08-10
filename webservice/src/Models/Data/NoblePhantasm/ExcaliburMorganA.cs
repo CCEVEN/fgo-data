@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace FGOData.Models.Data
 {
-    public class ExcaliburmMorganA : NoblePhantasm
+    public class ExcaliburMorganA : NoblePhantasm
     {
         public ExcaliburMorganA()
         {
