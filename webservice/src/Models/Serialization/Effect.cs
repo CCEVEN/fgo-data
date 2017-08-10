@@ -8,6 +8,7 @@ namespace FGOData.Models.Serialization
         public TargetType Target { get; set; }
         public List<Requirement> Requirements { get; set; }
         public int Duration { get; set; }
+        public int HitCount { get; set; }
         public EffectValueType EffectValuesType { get; set; }
         public List<float> EffectValues { get; set; }
     }

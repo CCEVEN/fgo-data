@@ -10,7 +10,6 @@
         HP,
         Delay,
         PercentChance,
-        HitLimit,
         SpecialCalculations
     }
 }
