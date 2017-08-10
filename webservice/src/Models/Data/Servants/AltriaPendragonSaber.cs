@@ -11,7 +11,7 @@ namespace FGOData.Models.Data
             Name_EN = "Altria Pendragon";
             Name_JP = "アルトリア・ペンドラゴン";
             Class = ClassType.Saber;
-            Cost = 12;
+            Cost = 16;
             Rarity = 5;
             Gender = GenderType.Female;
             Attribute = AttributeType.Earth;
