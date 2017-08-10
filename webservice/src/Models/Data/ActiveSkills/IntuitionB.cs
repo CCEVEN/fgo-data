@@ -10,7 +10,6 @@ namespace FGOData.Models.Data
             Name_EN = "Intuition B";
             Name_JP = "直感 B";
             Cooldown = 7;
-            RequiredAscension = 1;
             Effects = new List<Effect> {
                 new Effect()
                 {
