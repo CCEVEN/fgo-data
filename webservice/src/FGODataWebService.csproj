@@ -139,6 +139,7 @@
     <Compile Include="Models\Serialization\EffectType.cs" />
     <Compile Include="Models\Serialization\GenderType.cs" />
     <Compile Include="Models\Serialization\NoblePhantasm.cs" />
+    <Compile Include="Models\Serialization\RequirementPair.cs" />
     <Compile Include="Models\Serialization\Requirements.cs" />
     <Compile Include="Models\Serialization\RequirementTypes.cs" />
     <Compile Include="Models\Serialization\Servant.cs" />

@@ -2,6 +2,9 @@
 {
     public enum RequirementType
     {
+        Ascension,
+        Interlude,
+        Strengthening,
         Gender,
         Attribute,
         Trait,

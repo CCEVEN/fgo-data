@@ -46,16 +46,43 @@ namespace FGOData.Models.Data
                 new Card(CardType.Buster, 1),
                 new Card(CardType.Extra, 3),
             };
-            NoblePhantasm = new List<NoblePhantasm>
+            NoblePhantasm = new List<RequirementPair<NoblePhantasm>>
             {
-                new ExcaliburA(),
-                new ExcaliburA2()
+                new RequirementPair<NoblePhantasm>
+                {
+                    Value = new ExcaliburA()
+                },
+                new RequirementPair<NoblePhantasm>
+                {
+                    Value = new ExcaliburA2(),
+                    Requirements = new List<Requirement>
+                    {
+                        new Requirement(RequirementType.Interlude, 2)
+                    }
+                }
             };
-            ActiveSkills = new List<ActiveSkill>
+            ActiveSkills = new List<RequirementPair<ActiveSkill>>
             {
-                new CharismaB(),
-                new ManaBurstA(),
-                new IntuitionA()
+                new RequirementPair<ActiveSkill>
+                {
+                    Value = new CharismaB()
+                },
+                new RequirementPair<ActiveSkill>
+                {
+                    Value = new ManaBurstA(),
+                    Requirements = new List<Requirement>
+                    {
+                        new Requirement(RequirementType.Ascension, 1)
+                    }
+                },
+                new RequirementPair<ActiveSkill>
+                {
+                    Value = new IntuitionA(),
+                    Requirements = new List<Requirement>
+                    {
+                        new Requirement(RequirementType.Ascension, 3)
+                    }
+                }
             };
             PassiveSkills = new List<PassiveSkill>
             {

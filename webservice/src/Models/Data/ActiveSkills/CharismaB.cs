@@ -10,8 +10,9 @@ namespace FGOData.Models.Data
             Name_EN = "Charisma B";
             Name_JP = "カリスマ B";
             Cooldown = 7;
-            Effects = new List<Effect> {
-                new Effect()
+            Effects = new List<Effect>
+            {
+                new Effect
                 {
                     EffectType = EffectType.Attack,
                     Target = TargetType.Team,

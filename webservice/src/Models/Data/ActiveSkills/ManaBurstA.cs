@@ -10,9 +10,9 @@ namespace FGOData.Models.Data
             Name_EN = "Mana Burst A";
             Name_JP = "魔力放出 A";
             Cooldown = 7;
-            RequiredAscension = 1;
-            Effects = new List<Effect> {
-                new Effect()
+            Effects = new List<Effect>
+            {
+                new Effect
                 {
                     EffectType = EffectType.Buster,
                     Target = TargetType.Self,

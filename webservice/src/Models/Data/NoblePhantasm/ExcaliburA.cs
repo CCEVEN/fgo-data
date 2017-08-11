@@ -12,8 +12,9 @@ namespace FGOData.Models.Data
             Rank = "A";
             Type = CardType.Buster;
             HitCount = 1;
-            NPLevelEffects = new List<Effect> {
-                new Effect()
+            NPLevelEffects = new List<Effect>
+            {
+                new Effect
                 {
                     EffectType = EffectType.Damage,
                     Target = TargetType.EnemyTeam,
@@ -29,8 +30,9 @@ namespace FGOData.Models.Data
                     }
                 }
             };
-            OverchargeEffects = new List<Effect> {
-                new Effect()
+            OverchargeEffects = new List<Effect>
+            {
+                new Effect
                 {
                     EffectType = EffectType.NPGauge,
                     Target = TargetType.Self,

@@ -11,7 +11,7 @@ namespace FGOData.Models.Data
             Name_JP = "騎乗 B";
             Effects = new List<Effect>
             {
-                new Effect()
+                new Effect
                 {
                     EffectType = EffectType.Quick,
                     EffectValuesType = EffectValueType.Percent,
