@@ -50,11 +50,11 @@ namespace FGOData.Models.Data
             {
                 new RequirementPair<NoblePhantasm>
                 {
-                    Value = new ExcaliburA()
+                    Value = new Excalibur()
                 },
                 new RequirementPair<NoblePhantasm>
                 {
-                    Value = new ExcaliburA2(),
+                    Value = new Excalibur2(),
                     Requirements = new List<Requirement>
                     {
                         new Requirement(RequirementType.Interlude, 2)

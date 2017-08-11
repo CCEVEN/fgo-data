@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace FGOData.Models.Data
 {
-    public class ExcaliburA2 : NoblePhantasm
+    public class Excalibur : NoblePhantasm
     {
-        public ExcaliburA2()
+        public Excalibur()
         {
             Name_EN = "Excalibur";
             Name_JP = "エクスカリバー";
-            Rank = "A++";
+            Rank = "A";
             Type = CardType.Buster;
             HitCount = 1;
             NPLevelEffects = new List<Effect>
@@ -22,11 +22,11 @@ namespace FGOData.Models.Data
                     EffectValuesType = EffectValueType.Percent,
                     EffectValues = new List<float>
                     {
+                        300.0f,
                         400.0f,
-                        500.0f,
-                        550.0f,
-                        575.0f,
-                        600.0f
+                        450.0f,
+                        475.0f,
+                        500.0f
                     }
                 }
             };
