@@ -54,6 +54,8 @@
         Dodge,
         // Invincible status effect
         Invincible,
+        // Instant-kill
+        Death,
         // Stun status effect
         Stun,
         // Seal status effect

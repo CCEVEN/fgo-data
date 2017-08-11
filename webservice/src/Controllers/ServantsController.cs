@@ -12,7 +12,8 @@ namespace FGOData.Controllers
         ServantsContext db = new ServantsContext();
         private IList<Servant> _servants = new List<Servant>
         {
-            new AltriaPendragonSaber()
+            new AltriaPendragonSaber(),
+            new SthenoAssassin()
         };
 
 
