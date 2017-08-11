@@ -92,6 +92,10 @@ namespace FGOData.Models.Data
             Stats = new List<StatValues>
             {
                 new StatValues(1, 2222, 1734),
+                new StatValues(10, 3527, 2692),
+                new StatValues(20, 4975, 3754),
+                new StatValues(30, 6423, 4817),
+                new StatValues(40, 7884, 5889),
                 new StatValues(50, 9332, 6951),
                 new StatValues(60, 10780, 8014),
                 new StatValues(70, 12241, 9086),
