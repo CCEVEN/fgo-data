@@ -125,18 +125,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Data\ActiveSkills\CharismaE.cs" />
+    <Compile Include="Models\Data\ActiveSkills\IntuitionB.cs" />
     <Compile Include="Models\Data\ActiveSkills\WhimOfTheGoddessA.cs" />
     <Compile Include="Models\Data\ActiveSkills\SirenSongA.cs" />
     <Compile Include="Models\Data\ActiveSkills\VampirismC.cs" />
+    <Compile Include="Models\Data\NoblePhantasm\ExcaliburMorganA.cs" />
     <Compile Include="Models\Data\NoblePhantasm\SmileOfTheStheno.cs" />
     <Compile Include="Models\Data\NoblePhantasm\Excalibur2.cs" />
     <Compile Include="Models\Data\NoblePhantasm\Excalibur.cs" />
     <Compile Include="Models\Data\PassiveSkills\CoreOfTheGoddessEX.cs" />
+    <Compile Include="Models\Data\PassiveSkills\MagicResistanceB.cs" />
     <Compile Include="Models\Data\PassiveSkills\PresenceConcealmentA2.cs" />
     <Compile Include="Models\Data\PassiveSkills\RidingB.cs" />
-    <Compile Include="Models\Data\Servants\SthenoAssassin.cs" />
+    <Compile Include="Models\Data\Servants\04-AltriaPendragonLilySaber.cs" />
+    <Compile Include="Models\Data\Servants\03-AltriaPendragonAlterSaber.cs" />
+    <Compile Include="Models\Data\Servants\06-Siegfried.cs" />
+    <Compile Include="Models\Data\Servants\05-NeroClaudiusSaber.cs" />
+    <Compile Include="Models\Data\Servants\41-SthenoAssassin.cs" />
     <Compile Include="Models\Serialization\PassiveSkill.cs" />
-    <Compile Include="Models\Data\Servants\AltriaPendragonSaber.cs" />
+    <Compile Include="Models\Data\Servants\02-AltriaPendragonSaber.cs" />
     <Compile Include="Models\Serialization\AlignmentType.cs" />
     <Compile Include="Models\Serialization\AttributeType.cs" />
     <Compile Include="Models\Serialization\Card.cs" />

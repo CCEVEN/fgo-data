@@ -5,13 +5,14 @@ namespace FGOData.Models.Data
 {
     public class CharismaE : ActiveSkill
     {
-        public CharismaB()
+        public CharismaE()
         {
             Name_EN = "Charisma E";
             Name_JP = "カリスマ E";
             Cooldown = 7;
-            Effects = new List<Effect> {
-                new Effect()
+            Effects = new List<Effect>
+            {
+                new Effect
                 {
                     EffectType = EffectType.Attack,
                     Target = TargetType.Team,

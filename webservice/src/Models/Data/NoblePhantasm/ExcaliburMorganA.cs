@@ -34,7 +34,6 @@ namespace FGOData.Models.Data
                 {
                     EffectType = EffectType.NPGauge,
                     Target = TargetType.Self,
-                    Duration = 1,
                     EffectValuesType = EffectValueType.Percent,
                     EffectValues = new List<float>
                     {

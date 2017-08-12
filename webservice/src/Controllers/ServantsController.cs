@@ -13,6 +13,10 @@ namespace FGOData.Controllers
         private IList<Servant> _servants = new List<Servant>
         {
             new AltriaPendragonSaber(),
+            new AltriaPendragonAlterSaber(),
+            new AltriaPendragonLilySaber(),
+            new NeroClaudiusSaber(),
+            new Siegfried(),
             new SthenoAssassin()
         };
 
