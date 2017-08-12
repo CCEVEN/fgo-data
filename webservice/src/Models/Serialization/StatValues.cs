@@ -8,14 +8,14 @@ namespace FGOData.Models.Serialization
     public class StatValues
     {
         public int Lvl { get; set; }
-        public int HP { get; set; }
         public int Atk { get; set; }
+        public int HP { get; set; }
 
-        public StatValues(int lvl, int hp, int atk)
+        public StatValues(int lvl, int atk, int hp)
         {
             Lvl = lvl;
-            HP = hp;
             Atk = atk;
+            HP = hp;
         }
     }
 }
